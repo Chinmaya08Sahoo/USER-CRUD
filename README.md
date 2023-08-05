@@ -5,9 +5,11 @@ This is simple crud operations for user and upload api's
 
 ### step - 1
 open the terminal and run "npm install" command.
+
 It will install all the dependency packages
 
 ### step - 2
+
 now run npm start command, It will make the node application in running condtion
 
 ## To Upload Data
