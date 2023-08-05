@@ -1,6 +1,12 @@
 # USER-CRUD
 This is simple crud operations for user and upload api's
 
+## Some Basic information Regarding the application
+### This node application has been developed using
+
+node version - 18.12.1
+npm package - 8.19.2
+
 ## Pllease follow the Below Steps
 
 ### step - 1
