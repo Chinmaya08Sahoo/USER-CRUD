@@ -1,0 +1,50 @@
+[
+  {
+    "endPoint": "/UPLOAD",
+    "method": "post",
+    "middlewares": [
+      "data/upload"
+    ],
+    "multipart": true,
+    "acceptingFiles": [
+      "csvfile"
+    ]
+  },
+  {
+    "endPoint": "/USER/CREATE",
+    "method": "post",
+    "middlewares": [
+      "user/create"
+    ]
+  },
+  {
+    "endPoint": "/USER/ALL",
+    "method": "get",
+    "middlewares": [
+      "user/getAll"
+    ]
+  },
+  {
+    "endPoint": "/USER/:userId",
+    "method": "get",
+    "middlewares": [
+      "user/get"
+    ]
+  },
+  {
+    "endPoint": "/USER/UPDATE",
+    "method": "post",
+    "middlewares": [
+      "user/isExist",
+      "user/update"
+    ]
+  },
+  {
+    "endPoint": "/USER/DELETE",
+    "method": "post",
+    "middlewares": [
+      "user/isExist",
+      "user/delete"
+    ]
+  }
+]
