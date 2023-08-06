@@ -22,7 +22,7 @@ const failureResponse = (error, req, res) => {
     if (!res.locals.rootData) {
       msg = "rootData not set";
       const err = new Error("rootData not set");
-      unSuccessResponse(err, req, res);
+      failureResponse(err, req, res);
       return;
     } else {
       if (res.locals.message) {
