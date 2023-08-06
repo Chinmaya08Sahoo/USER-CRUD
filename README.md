@@ -126,7 +126,7 @@ Example Of request Body-
     "zip": "27028",
     "dob": "1960-02-11",
     "primary": "",
-    "_id": "64ce7f3cdbf4ca0e7a59fe6t"
+    "id": "64ce7f3cdbf4ca0e7a59fe6t"
 }
 
 It will update the particular user record data
